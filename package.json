@@ -1,0 +1,8 @@
+{
+  "name": "manarat-eltareq-root",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix manarat-web && npm --prefix manarat-web run build",
+    "dev": "npm --prefix manarat-web run dev"
+  }
+}
