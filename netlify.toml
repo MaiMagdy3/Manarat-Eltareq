@@ -1,18 +1,8 @@
-<<<<<<< HEAD
 [build]
- base = "."
+  base = "manarat-web"
   command = "npm install && npm run build"
   publish = ".next"
   environment = { NODE_ENV = "production" }
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-=======
-[build]
-  base = "manarat-web"
-  command = "npm install && npm run build"
-  publish = ".next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
->>>>>>> origin/manarateltareq-patch-1
