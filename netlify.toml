@@ -1,5 +1,5 @@
 [build]
-  base = "manara_web"
+  base = "."
   command = "npm install && npm run build"
   publish = ".next"
   environment = { NODE_ENV = "production" }
