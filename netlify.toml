@@ -1,0 +1,8 @@
+[build]
+  base = "manarat-web"
+  command = "npm install && npm run build"
+  publish = ".next"
+  environment = { NODE_ENV = "production" }
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
