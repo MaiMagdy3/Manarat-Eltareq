@@ -24,3 +24,6 @@ coverage/
 .vscode/
 >>>>>>> origin/manarateltareq-patch-1
 
+
+# Local Netlify folder
+.netlify
