@@ -40,7 +40,6 @@ export const roadmapLevels: RoadmapLevel[] = [
           { title: "فيديوهات خفيفة تمهيدية (اختر منها ما تحتاجه)", url: "https://www.youtube.com/playlist?list=PL9GrBMsvivVUzs49w_nFdKu74AtwFdH5H", language: "ar" },
           { title: "Egypt Scholars: كورس تأسيسي لطلبة كلية الطب", url: "https://youtube.com/playlist?list=PLt0thylmbOcnZDtQoVo9niJTCKw5soPaz", language: "ar" },
           { title: "كورس تأسيسي لطلبة كلية العلوم وباقي الكليات العلمية", url: "https://youtube.com/playlist?list=PLD3dGfojEhOKdudANtVF8LT7CBqAAtxnU", language: "ar" },
-          { title: "كورس د. دهشان: Medical research – From Zero to Publication", note: "الرابط غير مكتمل في الملف المصدر — يُرجى التواصل مع د. محمود بسيوني لطلب الرابط الكامل", language: "ar" },
         ],
       },
       {
