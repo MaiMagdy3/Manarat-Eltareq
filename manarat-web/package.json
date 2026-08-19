@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "concurrently \"npm run dev\" \"npx wait-on http://localhost:3000 && npx open-cli http://localhost:3000\"",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
