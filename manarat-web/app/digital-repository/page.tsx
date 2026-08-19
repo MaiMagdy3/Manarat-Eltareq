@@ -12,7 +12,7 @@ export default function DigitalRepositoryPage() {
       <section className="mx-auto max-w-6xl px-4 py-12">
         <Box>
           <h2 className="font-display font-bold text-xl text-ink mb-4">الدعم الكامل للباحث</h2>
-          <ul className="space-y-2 text-muted font-body list-disc pr-5">
+          <ul className="space-y-2 text-muted font-body list-disc ps-5">
             <li>مكتبة الأبحاث المفتوحة</li>
             <li>أرشيف الوثائق والمنهجيات</li>
             <li>مجموعات بحث متنوعة حسب التخصصات</li>

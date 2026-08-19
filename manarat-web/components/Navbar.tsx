@@ -82,6 +82,41 @@ export default function Navbar() {
               </Link>
             );
           })}
+
+          <div className="md:hidden pt-3 mt-2 border-t border-border flex flex-col gap-2">
+            {user ? (
+              <>
+                <span className="text-xs text-muted font-mono px-3">{user.email}</span>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMenuOpen(false);
+                    handleSignOut();
+                  }}
+                  className="w-full text-center px-4 py-2 rounded-full text-sm border border-border text-ink hover:border-beacon transition-colors"
+                >
+                  تسجيل الخروج
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/login"
+                  onClick={() => setMenuOpen(false)}
+                  className="w-full text-center px-4 py-2 rounded-full text-sm border border-border text-ink hover:border-beacon transition-colors"
+                >
+                  تسجيل الدخول
+                </Link>
+                <Link
+                  href="/register"
+                  onClick={() => setMenuOpen(false)}
+                  className="w-full text-center px-4 py-2 rounded-full text-sm bg-beacon text-deep font-semibold hover:bg-beacon-soft transition-colors"
+                >
+                  إنشاء حساب
+                </Link>
+              </>
+            )}
+          </div>
         </nav>
 
         <div className="hidden md:flex items-center gap-3 shrink-0">

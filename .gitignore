@@ -10,20 +10,6 @@ coverage/
 *.log
 .DS_Store
 .vscode/
-node_modules/
-.next/
-out/
-coverage/
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.log
-.DS_Store
-.vscode/
->>>>>>> origin/manarateltareq-patch-1
-
-
-# Local Netlify folder
+*.tsbuildinfo
 .netlify
+

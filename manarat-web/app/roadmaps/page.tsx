@@ -42,7 +42,7 @@ export default function ResearchRoadmapsPage() {
 
           <Box>
             <h2 className="font-display font-bold text-xl text-ink mb-4">مصادر مقترحة للبحث</h2>
-            <ul className="space-y-2 text-muted text-sm font-body list-disc pr-5">
+            <ul className="space-y-2 text-muted text-sm font-body list-disc ps-5">
               {suggestedSources.map((s) => (
                 <li key={s}>{s}</li>
               ))}

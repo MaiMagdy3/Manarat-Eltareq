@@ -26,7 +26,7 @@ export default function AboutPage() {
               يُبنى هذا القسم على خبرة د. محمود بسيوني في البحث العلمي والكتابة الأكاديمية، مع
               تركيز خاص على دعم الباحثين الناشئين.
             </p>
-            <ul className="space-y-2 text-muted text-sm font-body list-disc pr-5">
+            <ul className="space-y-2 text-muted text-sm font-body list-disc ps-5">
               <li>مصادر ومراجع مجمعة بعناية للبحث العلمي</li>
               <li>إرشاد عملي في تطوير الخطط البحثية</li>
               <li>ورش عمل وأدوات مساعدة في التوثيق وكتابة المقالات</li>
