@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "cd manarat-web && npm install && npm run build",
-  "outputDirectory": "manarat-web/.next",
-  "installCommand": "cd manarat-web && npm install"
-}
